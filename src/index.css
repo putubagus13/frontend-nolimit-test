@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities{
+  .nav{
+      @apply relative
+       text-secondary
+       text-[13px]
+       tracking-[1px]
+      hover:text-secondary
+      cursor-pointer
+  }
+  .nav::after{
+      @apply content-[''] bg-gradient-to-l from-accent to-pink-500 h-[3px]
+      w-[0%] left-0 -bottom-[5px] rounded-xl absolute duration-500
+  }
+  .nav:hover::after{
+      @apply w-[100%]
+  }
+  .navSelect{
+    @apply relative
+     text-secondary
+     text-[13px]
+     tracking-[1px]
+    hover:text-secondary
+    cursor-pointer
+}
+  .navSelect::after{
+    @apply content-[''] bg-gradient-to-l from-accent to-pink-500 h-[3px]
+    w-[100%] left-0 -bottom-[5px] rounded-xl absolute
+}
+}

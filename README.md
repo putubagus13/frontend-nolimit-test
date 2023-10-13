@@ -2,7 +2,7 @@
 
 Census Bureau adalah aplikasi web yang memungkinkan pengguna untuk menjelajahi data pertumbuhan populasi di berbagai negara seiring berjalannya waktu. Aplikasi ini menampilkan data populasi dari berbagai negara dalam bentuk grafik dan diagram yang informatif. Proyek ini dibangun dengan menggunakan React.js dan menawarkan kemudahan dalam menjelajahi data populasi.
 
-## Panduan Kontribusi
+## Panduan Menjalankan Program
 
 Jika Anda ingin berkontribusi pada proyek ini, berikut adalah langkah-langkah yang perlu Anda ikuti:
 

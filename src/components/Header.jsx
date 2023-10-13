@@ -12,7 +12,7 @@ function Header() {
             Census Bureau
       </Link>
       <div className="dropdown dropdown-end">
-        <button tabIndex={0}><GiHamburgerMenu className='md:hidden text-secondary' size={25} /></button>
+        <button tabIndex={0}><GiHamburgerMenu className='md:hidden text-secondary ' size={25} /></button>
         <ul 
           tabIndex={0} 
           className="dropdown-content z-[1] menu p-4 shadow 
